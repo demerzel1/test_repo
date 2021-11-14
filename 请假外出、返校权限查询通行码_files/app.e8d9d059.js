@@ -428,7 +428,14 @@
             }, I = {class: "dplugin-mobile dplugin-mobile-dAvatar"},
             z = {class: "dplugin-mobile-addfileed-box", style: {height: "100px", width: "100px", margin: "auto"}},
             A = ["src"], C = Object(a["g"])("div", {class: "clear"}, null, -1),
-            S = Object(a["g"])("div", {class: "mobile_pluginnames_hide"}, [Object(a["g"])("div", {class: "pluginnames"}), Object(a["g"])("div", {class: "plugin-allbox"}, [Object(a["g"])("div", {
+            S = Object(a["g"])("div", {class: "mobile_pluginnames_hide"}, [Object(a["g"])("div", {class: "pluginnames2"}, [Object(a["g"])("span", {
+                style: {
+                    color: "rgb(135, 135, 135)",
+                    "font-size": "0px",
+                    "font-family": "微软雅黑",
+                    "line-height": "0px"
+                }
+            }, "动态图")]), Object(a["g"])("div", {class: "plugin-allbox"}, [Object(a["g"])("div", {
                 "data-key": "Image_36",
                 class: "dplugin-box",
                 style: {"margin-top": "0px", "margin-bottom": "0px", "text-align": "left"}
@@ -740,8 +747,8 @@
         var ye = {
             name: "personalInfo", data: function () {
                 return {
-                    name: localStorage.getItem("name") || "孟兆昕",
-                    stdId: localStorage.getItem("stdId") || 2019111575,
+                    name: localStorage.getItem("name") || "易玛㷩",
+                    stdId: localStorage.getItem("stdId") || 2020202020,
                     dep: localStorage.getItem("dep") || "计算机学院（国家示范性软件学院）",
                     inOut: localStorage.getItem("inOut") || "允许出校",
                     img: localStorage.getItem("img") || n("450e")
@@ -766,8 +773,8 @@
                 return {
                     showFakePass: !1,
                     personalInfo: {
-                        name: "孟兆昕",
-                        stdId: 2019111575,
+                        name: "易玛㷩",
+                        stdId: 2020202020,
                         dep: "计算机学院（国家示范性软件学院）",
                         inOut: "允许出校",
                         img: n("450e")
